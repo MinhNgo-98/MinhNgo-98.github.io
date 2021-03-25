@@ -1,173 +1,23 @@
 <template>
   <Layout>
-    <div class="hero h-screen flex flex-col">
+    <Hero-Section/>
+
+    <div class="border-gray-200 pt-16 border-b">
       <div
-        class="flex flex-col lg:flex-row justify-between pt-4 lg:pt-24 container mx-auto"
+        class="get-to-know-me container-fluid w-10/12 mx-auto text-xl pb-16 relative"
       >
-        <div
-          class="text-4xl flex justify-center font-bold w-full lg:w-3/5 text-center sm:text-left"
-        >
-          <div class="w-4/5">
-            <h1
-              class="text-blue-700 my-8 leading-tight font-bold text-4xl uppercase"
-            >
-              Minh Huan Ngo
-            </h1>
-            <h2
-              class="font-light mb-4 xl:ml-12 uppercase text-lg lg:text-xl xl:text-2xl leading-tight"
-            >
-              Computer Science & Media Student
-            </h2>
-            <h2
-              class="font-light my-4 xl:ml-24 uppercase text-lg lg:text-xl xl:text-2xl leading-tight"
-            >
-              Full Stack Web Developer
-            </h2>
-            <h2
-              class="font-light my-4 xl:ml-36 uppercase text-lg lg:text-xl xl:text-2xl leading-tight"
-            >
-              Passionate about creation
-            </h2>
-          </div>
-        </div>
-        <div class="mt-8 xl:mt-0">
-          <g-image
-            src="../../static/images/developer.svg"
-            alt="hero"
-            class="mx-auto xl:mx-0 w-4/5"
-          />
-        </div>
-      </div>
-      <div class="bg-black flex-grow flex justify-center items-center">
-        <div class="flex flex-col justify-center">
-          <h2
-            class="text-white text-center font-regular uppercase text-lg lg:text-xl xl:text-2xl leading-tight"
-          >
-            Contact me
-          </h2>
-          <div class="flex">
-            <div class="bg-white p-3 m-4">
-              <g-image
-                src="../../static/images/contact/phone-call.svg"
-                alt="phone"
-                width="35px"
-                height="35px"
-                class="contact-icon"
-              />
-            </div>
-            <div class="bg-white p-3 m-4">
-              <g-image
-                src="../../static/images/contact/email.svg"
-                alt="email"
-                width="35px"
-                height="35px"
-                class="contact-icon"
-              />
-            </div>
-            <div class="bg-white p-3 m-4">
-              <g-image
-                src="../../static/images/contact/linkedin.svg"
-                alt="linkedin"
-                width="35px"
-                height="35px"
-                class="contact-icon"
-              />
-            </div>
-            <div class="bg-white p-3 m-4">
-              <g-image
-                src="../../static/images/contact/github.svg"
-                alt="github"
-                width="35px"
-                height="35px"
-                class="contact-icon"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- end hero -->
-    <div class="container mx-auto">
-      <h1 class="text-4xl uppercase font-semibold text-blue-700">Über mich</h1>
-    </div>
-
-    <div class="overflow-x-hidden">
-      <div
-        class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative"
-      >
-        <h2 class="font-bold mb-6" id="projects">
-          Here are some projects I've worked on:
-        </h2>
-
-        <div
-          class="absolute right-0"
-          style="top: 50px; transform: translate(100%) rotate(180deg)"
-        >
-          <svg width="170px" height="170px">
-            <use xlink:href="#dots-triangle" />
-          </svg>
-        </div>
-
-        <ul class="text-xl sm:text-xl space-y-6">
-          <li class="checkmark">
-            <div>Project One</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-          <li class="checkmark">
-            <div>Project Two</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-          <li class="checkmark">
-            <div>Project Three</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-          <li class="checkmark">
-            <div>Project Four</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-        </ul>
-      </div>
-      <!-- end projects -->
-    </div>
-
-    <div class="overflow-x-hidden border-gray-200 border-b">
-      <div
-        class="get-to-know-me container-inner mx-auto text-xl pb-16 relative"
-      >
-        <h2 class="font-bold mb-6" id="about">Get to know me:</h2>
-
-        <div
-          class="absolute left-0"
-          style="top: 50px; transform: translateX(-100%)"
-        >
-          <svg width="170px" height="170px">
-            <use xlink:href="#dots-triangle" />
-          </svg>
-        </div>
-
+        <h2 class="font-bold mb-8 text-4xl uppercase" id="about">Über mich</h2>
         <div
           class="flex flex-col sm:flex-row justify-between items-center mb-16"
         >
           <div>
             <g-image
-              src="../../static/images/avatar.jpg"
+              src="../../static/images/profile.png"
               alt="avatar"
               class="w-32 h-32 rounded-full mb-8 xl:mb-0"
             />
           </div>
-          <div class="flex-1 text-xl sm:text-xl ml-6">
+          <div class="flex-1 text-xl sm:text-xl sm:ml-6 text-justify">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum quae
             architecto minus molestias iusto ducimus fuga quo quia libero
             dignissimos, fugiat modi assumenda debitis laboriosam.
@@ -394,9 +244,15 @@
 </template>
 
 <script>
+import Layout from '../layouts/Default'
+import HeroSection from '../components/HeroSection'
 export default {
   metaInfo: {
     title: "Home",
   },
+  components: {
+    Layout,
+    HeroSection
+  }
 };
 </script>
