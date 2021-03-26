@@ -1,59 +1,112 @@
 <template>
-        <div
-        class="projects container-inner mx-auto text-xl border-t border-gray-500 border-b py-16 mb-16 relative"
-      >
-        <h2 class="font-bold mb-6" id="projects">
-          Here are some projects I've worked on:
-        </h2>
-
-        <div
-          class="absolute right-0"
-          style="top: 50px; transform: translate(100%) rotate(180deg)"
-        >
-          <svg width="170px" height="170px">
-            <use xlink:href="#dots-triangle" />
-          </svg>
-        </div>
-
-        <ul class="text-xl sm:text-xl space-y-6">
-          <li class="checkmark">
-            <div>Project One</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-          <li class="checkmark">
-            <div>Project Two</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-          <li class="checkmark">
-            <div>Project Three</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-          <li class="checkmark">
-            <div>Project Four</div>
-            <div class="text-xl text-gray-600">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui ab
-              nam animi iure nemo exercitationem a, eius non culpa itaque!
-            </div>
-          </li>
-        </ul>
+   <div id="projects" class="md:w-3/4 px-5 py-16 mx-auto">
+      <div class="w-full mb-6 lg:mb-0">
+         <h1
+            class="sm:text-3xl text-2xl font-medium mb-2 text-gray-900 font-bold mb-8 uppercase"
+         >
+            Projekte
+         </h1>
       </div>
+      <div class="mx-auto">
+         <div class="flex flex-wrap">
+            <a href="https://classroom-django.herokuapp.com/" class="lg:w-1/2">
+               <div class="flex relative m-2 border rounded">
+                  <g-image
+                     alt="gallery"
+                     class="absolute inset-0 w-full h-full object-cover object-center"
+                     src="../../static/images/projects/classroom.png"
+                  />
+                  <div
+                     class="px-8 py-32 relative z-10 w-full border bg-gray-100 opacity-0 hover:opacity-90"
+                  >
+                     <h1
+                        class="text-xl font-bold text-gray-900 mb-3"
+                     >
+                        Classroom App
+                     </h1>
+                     <p class="leading-relaxed">
+                        Photo booth fam kinfolk cold-pressed sriracha leggings
+                        jianbing microdosing tousled waistcoat.
+                     </p>
+                  </div>
+               </div>
+            </a>
+            <a href="https://auction-django.herokuapp.com/" class="lg:w-1/2">
+               <div class="flex relative m-2 border rounded">
+                  <g-image
+                     alt="gallery"
+                     class="absolute inset-0 w-full h-full object-cover object-center"
+                     src="../../static/images/projects/auction.png"
+                  />
+                  <div
+                     class="px-8 py-32 relative z-10 w-full border bg-gray-100 opacity-0 hover:opacity-90"
+                  >
+                     <h1
+                        class="text-xl font-bold text-gray-900 mb-3"
+                     >
+                        Auction Site
+                     </h1>
+                     <p class="leading-relaxed">
+                        Photo booth fam kinfolk cold-pressed sriracha leggings
+                        jianbing microdosing tousled waistcoat.
+                     </p>
+                  </div>
+               </div>
+            </a>
+            <a href="https://colorgame-react.netlify.app/" class="lg:w-1/2">
+               <div class="flex relative m-2 border rounded">
+                  <g-image
+                     alt="gallery"
+                     class="absolute inset-0 w-full h-full object-cover object-center"
+                     src="../../static/images/projects/colorgame.png"
+                  />
+                  <div
+                     class="px-8 py-32 relative z-10 w-full border bg-gray-100 opacity-0 hover:opacity-90"
+                  >
+                     <h1
+                        class="text-xl font-bold text-gray-900 mb-3"
+                     >
+                        Color Guessing Game
+                     </h1>
+                     <p class="leading-relaxed">
+                        Photo booth fam kinfolk cold-pressed sriracha leggings
+                        jianbing microdosing tousled waistcoat.
+                     </p>
+                  </div>
+               </div>
+            </a>
+            <a href="https://asean-shop.netlify.app/" class="lg:w-1/2">
+               <div class="flex relative m-2 border rounded">
+                  <g-image
+                     alt="gallery"
+                     class="absolute inset-0 w-full h-full object-cover object-center"
+                     src="../../static/images/projects/asean-shop.png"
+                  />
+                  <div
+                     class="px-8 py-32 relative z-10 w-full border bg-gray-100 opacity-0 hover:opacity-90"
+                  >
+                     <h1
+                        class="text-xl font-bold text-gray-900 mb-3"
+                     >
+                        Asian E-Commerce
+                     </h1>
+                     <p class="leading-relaxed">
+                        Photo booth fam kinfolk cold-pressed sriracha leggings
+                        jianbing microdosing tousled waistcoat.
+                     </p>
+                  </div>
+               </div>
+            </a>
+         </div>
+      </div>
+   </div>
 </template>
 
 <script>
 export default {
-
-}
+   name: "Project"
+};
 </script>
 
 <style>
-
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div
-    class="content-wrapper bg-background-primary font-sans text-copy-primary font-normal leading-normal flex flex-col min-h-screen"
+    class="content-wrapper bg-white font-normal leading-normal flex flex-col min-h-screen text-black"
   >
     <Header />
     <main class="flex-grow">

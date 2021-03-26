@@ -3,9 +3,21 @@
       <nav
         class="bg-white"
       >
-        <div class="container mx-auto w-10/12 flex flex-wrap justify-between items-center py-4">
+        <div class="container mx-auto flex flex-wrap justify-between items-center py-4">
           <div>
-            <h2 class="text-xl uppercase font-semibold">Portfolio</h2>
+            
+                          <a
+                v-if="$route.path === '/'"
+                href="/#about"
+                v-scroll-to="'#about'"
+                data-cypress="about"
+                ><h2 class="text-xl uppercase font-semibold">Portfolio</h2></a
+              >
+              <g-link
+                v-else
+                to="/#about"
+                ><h2 class="text-xl uppercase font-semibold">Portfolio</h2></g-link
+              >
           </div>
           <div class="block lg:hidden">
             <button
@@ -26,7 +38,7 @@
             </button>
           </div>
           <ul
-            class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-2 lg:mt-0"
+            class="uppercase tracking-wide font-bold w-full block flex-grow lg:space-x-8 space-y-6 lg:space-y-0 lg:flex lg:flex-initial lg:w-auto items-center mt-6 lg:mt-0"
             :class="isOpen ? 'block' : 'hidden'"
             data-cypress="menu"
           >
@@ -49,17 +61,17 @@
             <li>
               <a
                 v-if="$route.path === '/'"
-                href="/#contact"
-                v-scroll-to="'#contact'"
+                href="/#skills"
+                v-scroll-to="'#skills'"
                 class="text-copy-primary font-normal hover:text-blue-700"
                 data-cypress="contact"
                 >Fähigkeiten</a
               >
               <g-link
                 v-else
-                to="/#contact"
+                to="/#skills"
                 class="text-copy-primary font-normal hover:text-blue-700"
-                >Contact</g-link
+                >Fähigkeiten</g-link
               >
             </li>
             <li>
@@ -103,6 +115,7 @@
 <script>
 
 export default {
+  name: "Header",
   data() {
     return {
       isOpen: false,
