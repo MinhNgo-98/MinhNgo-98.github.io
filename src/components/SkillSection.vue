@@ -14,26 +14,23 @@
             <div
                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
             >
-               <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-               >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-               </svg>
+            <img src="https://img.icons8.com/wired/64/000000/bottom-navigation-toolbar.png"/>
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Shooting Stars
+                  Frontend-Entwicklung
                </h2>
-               <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-               </p>
+               <ul class="list-disc list-inside leading-relaxed">
+                  <li>
+                     Praktische Erfahrung durch Werkstudium + Praktikum bei <a href="https://www.phmu.de/">PHMU</a>
+                  </li>
+                  <li>
+                     Sprachen: HTML, CSS, Javascript
+                  </li>
+                  <li>
+                     Frameworks: Vue.js, React.js, TailwindCSS, Bootstrap
+                  </li>
+               </ul>
             </div>
          </div>
       </div>
@@ -44,26 +41,26 @@
             <div
                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
             >
-               <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-               >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-               </svg>
+               <img src="https://img.icons8.com/wired/64/000000/server.png"/>
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The Catalyzer
+                  Backend-Entwicklung
                </h2>
-               <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-               </p>
+               <ul class="list-disc list-inside leading-relaxed">
+                  <li>
+                     Erfahrung aus der Uni und dem Onlinekurs mit Zertifikat <a href="https://certificates.cs50.io/e9f0981c-92c8-43ce-86f6-e18ccd0e657c.png?size=letter">CS50's Web Programming with Python and JavaScript</a>
+                  </li>
+                  <li>
+                     Sprachen: Python, Javascript, MySQL
+                  </li>
+                  <li>
+                     Frameworks: Django
+                  </li>
+                  <li>
+                     Ich habe vor Node.js und MongoDB in der Zukunft zu lernen
+                  </li>
+               </ul>
             </div>
          </div>
       </div>
@@ -74,27 +71,20 @@
             <div
                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
             >
-               <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-               >
-                  <circle cx="12" cy="5" r="3"></circle>
-                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-               </svg>
+               <g-image src="https://img.icons8.com/wired/64/000000/gear.png"/>
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The 400 Blows
+                  Static Site Generators
                </h2>
-               <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-               </p>
+               <ul class="list-disc list-inside leading-relaxed">
+                  <li>
+                     Erfahrung aus Anfertigung meiner Bachelorarbeit und aus meinem Praktikum
+                  </li>
+                  <li>
+                     Generatoren: Gridsome, Hugo, Jekyll
+                  </li>
+               </ul>
             </div>
          </div>
       </div>
@@ -105,27 +95,23 @@
             <div
                class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center"
             >
-               <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-12 h-12"
-                  viewBox="0 0 24 24"
-               >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-               </svg>
+               <g-image src="https://img.icons8.com/wired/64/000000/toolbox.png"/>
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Neptune
+                  Tools
                </h2>
-               <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-               </p>
+               <ul class="list-disc list-inside leading-relaxed">
+                  <li>
+                     VSCode
+                  </li>
+                  <li>
+                     Figma
+                  </li>
+                  <li>
+                     Git/GitHub
+                  </li>
+               </ul>
             </div>
          </div>
       </div>

@@ -1,7 +1,7 @@
 <template>
    <Layout>
       <Hero-Section />
-      <div class="container px-5 pt-24 mx-auto flex flex-wrap">
+      <div class="container px-5 pt-16 mx-auto flex flex-wrap">
          <about-section />
          <skill-section />
          <project-section />

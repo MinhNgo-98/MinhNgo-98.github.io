@@ -4,19 +4,11 @@
          <h1
             class="sm:text-3xl text-2xl font-medium mb-2 text-gray-900 font-bold mb-8 uppercase"
          >
-            Kontaktieren Sie mich
+            Kontakt
          </h1>
       </div>
-      <div
-         class="absolute right-0 top-0"
-         style="transform: translate(100%) rotate(180deg)"
-      >
-         <svg width="170px" height="170px">
-            <use xlink:href="#dots-triangle" />
-         </svg>
-      </div>
       <div class="text-xl sm:text-xl mb-16">
-         <form action="#" class="mb-12">
+         <form action="https://getform.io/f/80919b0b-4763-4061-bb13-fc7f68a8293d" method="POST" class="mb-12">
             <div class="flex flex-wrap mb-6 -mx-4">
                <div class="w-full md:w-1/2 mb-6 md:mb-0 px-4">
                   <label class="block mb-2 text-copy-primary" for="name">
@@ -27,7 +19,6 @@
                      type="text"
                      name="name"
                      id="name"
-                     placeholder="Jon Snow"
                      class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-blue-700 mb-2 p-4"
                      required
                   />
@@ -42,7 +33,6 @@
                      type="email"
                      name="email"
                      id="email"
-                     placeholder="email@example.com"
                      class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none focus:border-blue-700 mb-2 p-4"
                      required
                   />
@@ -59,7 +49,6 @@
                   rows="5"
                   name="message"
                   class="block w-full bg-background-form border border-border-color-primary shadow rounded outline-none appearance-none focus:border-blue-700 mb-2 px-4 py-4"
-                  placeholder="Enter your message here."
                   required
                ></textarea>
             </div>

@@ -22,11 +22,6 @@
                >
                   Full Stack Web Developer
                </h2>
-               <h2
-                  class="font-light my-4 xl:ml-8 uppercase text-xl xl:text-2xl leading-tight"
-               >
-                  Passionate about creation
-               </h2>
                <div
                   class="mt-5 xl:ml-8 mt-8 flex justify-center lg:justify-start"
                >
