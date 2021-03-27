@@ -26,7 +26,7 @@
                   class="mt-5 xl:ml-8 mt-8 flex justify-center lg:justify-start"
                >
                   <a
-                     href="../../static/CV.pdf" download
+                     href="https://www.mediafire.com/file/01jpons3tffz1tz/Lebenslauf.pdf/file" download
                      class="block bg-blue-700 hover:bg-blue-800 hover:text-white text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
                   >
                      CV herunterladen
