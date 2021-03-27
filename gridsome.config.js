@@ -7,7 +7,8 @@
 module.exports = {
 	siteName: 'Minh Huan Ngo | Portfolio',
 	siteDescription: 'Mein Web Developer Portfolio',
-	siteUrl: 'https://gridsome-portfolio-starter.netlify.com',
+	siteUrl: 'https://minhngo-98.github.io/',
+	pathPrefix: '/MinhNgo-98.github.io',
 	plugins: [
 		{
 			use: 'gridsome-plugin-tailwindcss',
