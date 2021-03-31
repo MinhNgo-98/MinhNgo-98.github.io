@@ -24,10 +24,6 @@
                      >
                         Classroom App
                      </h1>
-                     <p class="leading-relaxed text-black">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                     </p>
                   </div>
                </div>
             </a>
@@ -46,10 +42,6 @@
                      >
                         Auction Site
                      </h1>
-                     <p class="leading-relaxed text-black">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                     </p>
                   </div>
                </div>
             </a>
@@ -68,10 +60,6 @@
                      >
                         Color Guessing Game
                      </h1>
-                     <p class="leading-relaxed text-black">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                     </p>
                   </div>
                </div>
             </a>
@@ -90,10 +78,6 @@
                      >
                         Asian E-Commerce
                      </h1>
-                     <p class="leading-relaxed text-black">
-                        Photo booth fam kinfolk cold-pressed sriracha leggings
-                        jianbing microdosing tousled waistcoat.
-                     </p>
                   </div>
                </div>
             </a>
