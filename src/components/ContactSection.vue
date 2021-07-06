@@ -4,7 +4,7 @@
          <h1
             class="sm:text-3xl text-2xl font-medium mb-2 text-gray-900 font-bold mb-8 uppercase"
          >
-            Kontakt
+            Contact
          </h1>
       </div>
       <div class="text-xl sm:text-xl mb-16">
@@ -26,7 +26,7 @@
 
                <div class="w-full px-4 md:w-1/2">
                   <label class="block text-copy-primary mb-2" for="email">
-                     E-Mail Adresse
+                     E-Mail
                   </label>
 
                   <input
@@ -41,7 +41,7 @@
 
             <div class="w-full mb-12">
                <label class="block text-copy-primary mb-2" for="message">
-                  Nachricht
+                  Message
                </label>
 
                <textarea

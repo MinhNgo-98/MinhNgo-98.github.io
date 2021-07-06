@@ -15,7 +15,7 @@
                <h2
                   class="font-light mb-4 xl:ml-8 uppercase text-xl xl:text-2xl leading-tight"
                >
-                  Medieninformatik Student
+                  Computer Science & Media Student
                </h2>
                <h2
                   class="font-light my-4 xl:ml-20 uppercase text-xl xl:text-2xl leading-tight"
@@ -29,7 +29,7 @@
                      href="https://www.mediafire.com/file/01jpons3tffz1tz/Lebenslauf.pdf/file" download
                      class="block bg-blue-700 hover:bg-blue-800 hover:text-white text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
                   >
-                     CV herunterladen
+                     Download Resume
                   </a>
                </div>
             </div>
@@ -49,7 +49,7 @@
             <h2
                class="text-white text-center font-regular uppercase text-xl sm:text-2xl mb-2 sm:mb-4 leading-tight"
             >
-               Kontakt & Links
+               Contact & Links
             </h2>
             <div class="flex justify-around">
                <a

@@ -5,7 +5,6 @@
       >
         <div class="container mx-auto flex flex-wrap justify-between items-center py-4">
           <div>
-            
                           <a
                 v-if="$route.path === '/'"
                 href="/#about"
@@ -49,13 +48,13 @@
                 v-scroll-to="'#about'"
                 class="text-copy-primary font-normal hover:text-blue-700"
                 data-cypress="about"
-                >Über mich</a
+                >About me</a
               >
               <g-link
                 v-else
                 to="/#about"
                 class="text-copy-primary font-normal hover:text-blue-700"
-                >Über mich</g-link
+                >About me</g-link
               >
             </li>
             <li>
@@ -65,13 +64,13 @@
                 v-scroll-to="'#skills'"
                 class="text-copy-primary font-normal hover:text-blue-700"
                 data-cypress="contact"
-                >Fähigkeiten</a
+                >Skills</a
               >
               <g-link
                 v-else
                 to="/#skills"
                 class="text-copy-primary font-normal hover:text-blue-700"
-                >Fähigkeiten</g-link
+                >Skills</g-link
               >
             </li>
             <li>
@@ -81,13 +80,13 @@
                 v-scroll-to="'#projects'"
                 class="text-copy-primary font-normal hover:text-blue-700"
                 data-cypress="projects"
-                >Projekte</a
+                >Projects</a
               >
               <g-link
                 v-else
                 to="/#projects"
                 class="text-copy-primary font-normal hover:text-blue-700"
-                >Projekte</g-link
+                >Projects</g-link
               >
             </li>
             <li>
@@ -97,13 +96,13 @@
                 v-scroll-to="'#contact'"
                 class="text-copy-primary font-normal hover:text-blue-700"
                 data-cypress="contact"
-                >Kontakt</a
+                >Contact</a
               >
               <g-link
                 v-else
                 to="/#contact"
                 class="text-copy-primary font-normal hover:text-blue-700"
-                >Kontakt</g-link
+                >Contact</g-link
               >
             </li>
           </ul>

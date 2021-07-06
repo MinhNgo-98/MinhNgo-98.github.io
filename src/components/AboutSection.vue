@@ -12,15 +12,16 @@
             <g-image
                src="../../static/images/profile.png"
                alt="avatar"
-               class="w-32 h-32 rounded-full mb-8 xl:mb-0"
+               class="w-36 h-36 rounded-full mb-8 xl:mb-0"
             />
          </div>
-         <div class="flex-1 sm:ml-6 text-justify">
-            Mein Name ist Minh Huan Ngo. Ich bin 22 Jahre alt und studiere Medieninformatik an der HTW Dresden. Vor kurzem gab ich meine Bachelorarbeit zum Thema "Untersuchung der Vorteile/Nachteile von statischen Websitegeneratoren und Vergleich verschiedener Implementierungen" ab.
-            <br/>
-            Ich interessiere mich sehr für Webentwicklung und suche eine Stelle sowohl in Frontend- als auch Backend-Entwicklung, um praktische Erfahrung zu sammeln. Es macht mir großen Spaß neue Dinge zu lernen undd meine Fähigkeiten zu verbessern.
-            <br/>
-            Wenn Sie also einen ehrgeizigen Entwickler suchen, dann sollten Sie auf jeden Fall mit mir Kontakt aufnehmen.
+         <div class="flex-1 sm:ml-6 text-justify text-lg">
+           Hi, my name is Minh Ngo. 
+           <br>
+           I'm 23 years old and recently graduated with a bachelor's degree in Computer Science & Media at the University of Applied Sciences Dresden (HTW Dresden). My goal is to become a skilled Full Stack web developer who is able to put any of his ideas into practice.
+           <br>
+           I'm a hungry and hard-working learner and I'm excited to have a look into the professional world of web development.
+            So feel free to contact me about anything, if you are interested or have any questions.
          </div>
       </div>
    </div>

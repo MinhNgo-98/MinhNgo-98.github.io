@@ -4,7 +4,7 @@
          <h1
             class="sm:text-3xl text-2xl font-medium mb-2 font-bold mb-8 uppercase"
          >
-            Fähigkeiten
+            Skills
          </h1>
       </div>
       <div class="flex relative pt-10 pb-20 sm:items-center mx-auto">
@@ -18,14 +18,14 @@
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Frontend-Entwicklung
+                  Frontend Development
                </h2>
                <ul class="list-disc list-inside leading-relaxed">
                   <li>
-                     Praktische Erfahrung durch Werkstudium + Praktikum bei <a href="https://www.phmu.de/">PHMU</a>
+                     Gained professional experience by working at <a href="https://www.phmu.de/">PHMU</a> as an Intern/Working Student
                   </li>
                   <li>
-                     Sprachen: HTML, CSS, Javascript
+                     Languages: HTML, CSS, Javascript
                   </li>
                   <li>
                      Frameworks: Vue.js, React.js, TailwindCSS, Bootstrap
@@ -45,20 +45,20 @@
             </div>
             <div class="flex-grow sm:pl-6 mt-6 sm:mt-0">
                <h2 class="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Backend-Entwicklung
+                  Backend development
                </h2>
                <ul class="list-disc list-inside leading-relaxed">
                   <li>
-                     Erfahrung aus der Uni und dem Onlinekurs mit Zertifikat <a href="https://certificates.cs50.io/e9f0981c-92c8-43ce-86f6-e18ccd0e657c.png?size=letter">CS50's Web Programming with Python and JavaScript</a>
+                     Acquired basic knowledge by attending courses at university and EDX <a href="https://certificates.cs50.io/e9f0981c-92c8-43ce-86f6-e18ccd0e657c.png?size=letter">CS50's Web Programming with Python and JavaScript</a>
                   </li>
                   <li>
-                     Sprachen: Python, Javascript, MySQL
+                     Experince from Internship at <a href="https://www.bosch-engineering.com/de/">Bosch Engineering</a>
                   </li>
                   <li>
-                     Frameworks: Django
+                     Languages: Python, Javascript, MySQL
                   </li>
                   <li>
-                     Ich habe vor Node.js und MongoDB in der Zukunft zu lernen
+                     Frameworks: Django, Node.js
                   </li>
                </ul>
             </div>
@@ -79,10 +79,10 @@
                </h2>
                <ul class="list-disc list-inside leading-relaxed">
                   <li>
-                     Erfahrung aus Anfertigung meiner Bachelorarbeit und aus meinem Praktikum
+                     Experience gained from Internship at <a href="https://www.phmu.de/">PHMU</a> and by writing my bachelor's thesis
                   </li>
                   <li>
-                     Generatoren: Gridsome, Hugo, Jekyll
+                     Generators: Gridsome, Hugo, Jekyll
                   </li>
                </ul>
             </div>
@@ -109,7 +109,7 @@
                      Figma
                   </li>
                   <li>
-                     Git/GitHub
+                     Git: GitHub, Gitlab
                   </li>
                </ul>
             </div>

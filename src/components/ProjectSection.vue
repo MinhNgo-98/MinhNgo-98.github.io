@@ -4,7 +4,7 @@
          <h1
             class="sm:text-3xl text-2xl font-medium mb-2 text-blue-700 font-bold mb-8 uppercase"
          >
-            Projekte
+            Projects
          </h1>
       </div>
       <div class="mx-auto">
