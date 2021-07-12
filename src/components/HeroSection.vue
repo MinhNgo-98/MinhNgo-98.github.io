@@ -26,7 +26,7 @@
                   class="mt-5 xl:ml-8 mt-8 flex justify-center lg:justify-start"
                >
                   <a
-                     href="https://www.mediafire.com/file/01jpons3tffz1tz/Lebenslauf.pdf/file" download
+                     href="https://www.mediafire.com/file/ryg7xvzjhgtcxcx/Resume.pdf/file" download
                      class="block bg-blue-700 hover:bg-blue-800 hover:text-white text-white text-sm font-semibold tracking-wide uppercase shadow rounded cursor-pointer px-6 py-3"
                   >
                      Download Resume
