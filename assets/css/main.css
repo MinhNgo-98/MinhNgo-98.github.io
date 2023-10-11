@@ -36,7 +36,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    text-transform: capitalize;
     border: none;
     outline: none;
     -webkit-transition: all 0.2s linear;
@@ -479,29 +478,52 @@ header #menu-btn:hover{
 }
 
  .skill-item.item1 .box:nth-child(1) .progress-bar span{
-    width:95%;
+    width:100%;
 }
 
  .skill-item.item1 .box:nth-child(2) .progress-bar span{
-    width:90%;
+    width:100%;
 }
 
  .skill-item.item1 .box:nth-child(3) .progress-bar span{
-    width:85%;
+    width:100%;
+}
+
+.skill-item.item1 .box:nth-child(4) .progress-bar span{
+    width:100%;
+}
+
+ .skill-item.item1 .box:nth-child(5) .progress-bar span{
+    width:100%;
+}
+
+ .skill-item.item1 .box:nth-child(6) .progress-bar span{
+    width:100%;
 }
 
 .skill-item.item2 .box:nth-child(1) .progress-bar span{
-    width:75%;
+    width:100%;
 }
 
  .skill-item.item2 .box:nth-child(2) .progress-bar span{
-    width:65%;
+    width:100%;
 }
 
  .skill-item.item2 .box:nth-child(3) .progress-bar span{
-    width:60%;
+    width:100%;
 }
 
+.skill-item.item2 .box:nth-child(4) .progress-bar span{
+    width:100%;
+}
+
+ .skill-item.item2 .box:nth-child(5) .progress-bar span{
+    width:100%;
+}
+
+ .skill-item.item2 .box:nth-child(6) .progress-bar span{
+    width:100%;
+}
 /*--------------------- 5- About Area CSS (End) ---------------------*/
 
 
@@ -572,75 +594,13 @@ header #menu-btn:hover{
     padding: 2rem 0;
 }
 
-.experience-item p{
+.experience-item li, .experience-item p, .education-item li, .education-item p {
     color: var(--grey);
     font-size: 1.6rem;
     line-height: 2.5rem;
 }
 
 /*--------------------- 6- Qualification Area CSS (End) ---------------------*/
-
-
-
-/*--------------------- 7- Services Area CSS (Start) ---------------------*/
-.service .box-container{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-}
-
-.service-item{
-    -webkit-box-flex: 1;
-    -ms-flex: 1 1 33rem;
-        flex: 1 1 33rem;
-    background-color: var(--black);
-    padding: 4rem 3rem;
-    text-align: center;
-    border: 0.1rem solid rgba(255,255, 255, 0.3);
-    border-radius: 0.5rem;
-    -webkit-transition: all 0.5s linear;
-       -moz-transition: all 0.5s linear;
-         -o-transition: all 0.5s linear;
-            transition: all 0.5s linear;
-}
-
-.service-item:hover{
-    background-color: var(--purple);
-}
-
-.service-item i{
-    color: var(--white);
-    font-size: 4rem;
-}
-
-.service-item h3{
-    font-size: 2rem;
-    color: var(--white);
-    padding: 1.5rem 0;
-}
-
-.service-item p{
-    font-size: 1.6rem;
-    color: var(--grey);
-    line-height: 1.6;
-}
-
-.service-item:hover p{
-    color: var(--white);
-}
-
-/*--------------------- 7- Services Area CSS (End) ---------------------*/
-
-
 
 /*--------------------- 8- Portfolio Area CSS (Start) ---------------------*/
 .controls{
@@ -838,11 +798,17 @@ header #menu-btn:hover{
     overflow: hidden;
 }
 
+.swiper-wrapper {
+    display: flex;
+    gap: 2rem;
+}
+
 .testi-item{
     text-align: center;
     border: 0.1rem solid var(--grey);
     border-radius: 0.5rem;
     padding: 4rem 2rem;
+    width: 33.33%;
 }
 
 .testi-item:hover{
@@ -886,86 +852,6 @@ header #menu-btn:hover{
 }
 
 /*--------------------- 9- Testimonials Area CSS (End) ---------------------*/
-
-
-
-/*--------------------- 10- Blog Area CSS (Start) ---------------------*/
-.blog-slider{
-    position: relative;
-    padding-bottom: 4rem;
-    overflow: hidden;
-}
-
-.blog-item{
-    background-color: #222;
-    border: 0.1rem solid rgba(0, 0, 0, 0.1);
-    border-radius: 0.5rem;
-    overflow: hidden;
-}
-
-.blog-item .image{
-    height: 25rem;
-    overflow: hidden;
-}
-
-.blog-item:hover .image img{
-    -webkit-transform: scale(1.2);
-            transform: scale(1.2);
-}
-
-.blog-item .image img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-}
-
-.blog-item .content{
-    padding: 2rem 1rem;
-}
-
-.blog-item .content .intro{
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    border-bottom: 0.2rem solid var(--grey);
-    padding: 1rem 0;
-    margin-bottom: 1.5rem;
-}
-
-.blog-item .content .intro h5{
-    font-size: 1.5rem;
-}
-
-.blog-item .content .intro h5 i{
-    color: var(--purple);
-    padding-right: 0.5rem;
-}
-
-.blog-item .content .intro h5 span{
-    color: var(--grey);
-}
-
-.blog-item .content .main-heading{
-    font-size: 2rem;
-    font-weight: bold;
-    color: var(--white);
-}
-
-.blog-item p{
-    padding: 1rem 0;
-    font-size: 1.6rem;
-    color: var(--grey);
-}
-
-.blog-item .btn{
-    margin-top: 1rem;
-}
-
-/*--------------------- 10- Blog Area CSS (End) ---------------------*/
-
 
 
 /*--------------------- 11- Contact Area CSS (Start) ---------------------*/
